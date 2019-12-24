@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jose M. Ordonez">
+    <meta name="description" content="Jose Ordonez&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal,devops,cloud,software">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps"/>
+<meta name="twitter:description" content="Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps This is a sample that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.
+On this project you will be able to create a PaS Azure Resource called App Service. This Azure resource will allow to you to deploy your web app, for this sample a .net web app.
+Within this repo is a folder called Terraform and a file called appService."/>
+
+    <meta property="og:title" content="Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps" />
+<meta property="og:description" content="Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps This is a sample that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.
+On this project you will be able to create a PaS Azure Resource called App Service. This Azure resource will allow to you to deploy your web app, for this sample a .net web app.
+Within this repo is a folder called Terraform and a file called appService." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://josema88.github.io/posts/iaac-with-azure-devops-and-terraform/" />
+<meta property="article:published_time" content="2019-12-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-12-23T00:00:00+00:00" />
+
+
+
+
+
+    
+      <base href="https://josema88.github.io/posts/iaac-with-azure-devops-and-terraform/">
+    
+    <title>
+  Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps · Jose Ordonez
+</title>
+
+    
+      <link rel="canonical" href="https://josema88.github.io/posts/iaac-with-azure-devops-and-terraform/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://josema88.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://josema88.github.io/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="https://josema88.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://josema88.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.61.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://josema88.github.io/">
+      Jose Ordonez
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://josema88.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://josema88.github.io/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://josema88.github.io/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://josema88.github.io/contact/">Contact me</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-12-23T00:00:00Z'>
+                December 23, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              5 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="https://josema88.github.io/categories/development/">Development</a>
+      <span class="separator">•</span>
+    <a href="https://josema88.github.io/categories/devops/">DevOps</a>
+      <span class="separator">•</span>
+    <a href="https://josema88.github.io/categories/cloud/">Cloud</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://josema88.github.io/tags/software/">software</a>
+      <span class="separator">•</span>
+    <a href="https://josema88.github.io/tags/devops/">devops</a>
+      <span class="separator">•</span>
+    <a href="https://josema88.github.io/tags/cloud/">cloud</a>
+      <span class="separator">•</span>
+    <a href="https://josema88.github.io/tags/infrastructure/">infrastructure</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <h1 id="azure-infrastructure-deployment-with-terraform-iaac-and-automated-with-azure-devops">Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps</h1>
+<p>This is a sample that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.</p>
+<p>On this project you will be able to create a PaS Azure Resource called <a href="https://azure.microsoft.com/en-us/services/app-service/">App Service</a>. This Azure resource will allow to you to deploy your web app, for this sample a .net web app.</p>
+<p>Within this repo is a folder called Terraform and a file called <a href="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Terraform/appService.tf">appService.tf</a> that contains the definition of the infrastructure that will be deployed on Azure. The file contains the definition for the following Azure resources:</p>
+<ul>
+<li>Resource Group</li>
+<li>App Service Plan</li>
+<li>App Service</li>
+</ul>
+<p>Each resource has its required configurations such as the name and other parameters. If you use the terraform file from this repo you should change the name for your App Service resource since this should be a unique name within azure cloud.</p>
+<h1 id="requirements">Requirements</h1>
+<ul>
+<li>Install <a href="https://docs.bitnami.com/azure/faq/administration/install-az-cli/">Azure CLI</a> (if you want to test from your computer)</li>
+<li>Install <a href="https://learn.hashicorp.com/terraform/getting-started/install.html">Terraform</a> (if you want to test from your computer)</li>
+<li>Create an Azure account.</li>
+<li>Create an Azure DevOps account.</li>
+</ul>
+<h1 id="create-azure-devops-project">Create Azure DevOps Project</h1>
+<p>You must create your Azure DevOps project that will contain the automated pipelines that deploy the infraestructure to the cloud.</p>
+<h4 id="create-new-organization">Create New Organization</h4>
+<ul>
+<li>Open <a href="https://dev.azure.com">https://dev.azure.com</a></li>
+<li>Create a new organization</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps1.png" alt="AzDevops1"></p>
+<p><img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps2.png" alt="AzDevops2"></p>
+<h4 id="create-project">Create Project</h4>
+<ul>
+<li>Create the first project - name it <code>AzBootCamp2019</code></li>
+</ul>
+<h4 id="authorize-your-azure-cloud-subscription">Authorize your Azure Cloud subscription</h4>
+<ul>
+<li>Add a service connection for your Azure Subscription
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps3.png" alt="AzDevops3"></li>
+</ul>
+<h1 id="create-automated-pipeline">Create Automated Pipeline</h1>
+<p>After you create your organization and project within Azure Devops you can proceed to create your automated pipeline.</p>
+<h3 id="create-a-release-pipeline">Create a Release Pipeline</h3>
+<ul>
+<li>Create a new Release Pipeline
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps4.png" alt="AzDevops4"></li>
+<li>Add an artifact, in this case your Github repo where your terraform code is hosted. You should add a new connection to your github in services management.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps5.png" alt="AzDevops5"></li>
+<li>Add a stage, e.g.: Dev or Prod. This stage should be an empty job.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps6.png" alt="AzDevops6">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps7.png" alt="AzDevops7">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps8.png" alt="AzDevops8"></li>
+</ul>
+<h4 id="select-a-ubuntu-os-agent">Select a Ubuntu OS Agent</h4>
+<p>For this sample you should use an agent that runs with Ubuntu OS since the scripts are written in bash.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps18.png" alt="AzDevops18"></p>
+<h4 id="create-pipeline-variables">Create Pipeline variables</h4>
+<p>These pipeline variables will be used in order to parametrize names for some resources and avoid the hardcoding withing the scripts. These variables will be used to create the Azure resources that will store the Terraform Backend. The variable &ldquo;TerraformStorageAccount&rdquo; refers to the name that you will set to the storage account in Azure that will stores the Terraform Backend, this variable should be different for any implementation since this should be a unique name within Azure Cloud.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps11.png" alt="AzDevops11"></p>
+<h3 id="terraform-backend">Terraform Backend</h3>
+<p>By default, Terraform stores state locally in a file named terraform.tfstate. When working with Terraform in a team, use of a local file makes Terraform usage complicated. With remote state, Terraform writes the state data to a remote data store. For this sample we will use a Terraform CLI task that allows to create an Azure storage account and storage container to store Terraform state if this not exists yet. For more information on Terraform remote state click <a href="https://www.terraform.io/docs/state/remote.html">here</a></p>
+<h3 id="terraform-cycle">Terraform Cycle</h3>
+<p>When running Terraform in automation, the focus is usually on the core plan/apply cycle. The main Terraform workflow is the following:</p>
+<p><img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/terraformworkflow.png" alt="TFcycle"></p>
+<p>i. Initialize the Terraform working directory.</p>
+<p>ii. Produce a plan for changing resources to match the current configuration.</p>
+<p>iii. Apply the changes described by the plan.</p>
+<p>The following tasks will allow you to implement the terraform cycle.</p>
+<h3 id="add-task---terraform-init">Add Task - Terraform Init</h3>
+<p>First you should install the extension in order to use the terraform task, select the extension created by Charles Zipp.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps14.png" alt="AzDevops14">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps15.png" alt="AzDevops15">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps16.png" alt="AzDevops16"></p>
+<p>Once the extension is installed in your Azure DevOps you can add the task for Terraform Install, this task will guarantee that the agent that runs the command has Terraform installed.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps17.png" alt="AzDevops17">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps17_1.png" alt="AzDevops17_1"></p>
+<p>Add Terraform CLI task to perform the Init Stage, you should select the command Init and for the Configuration directory you should point to the artifact configured before (repo and folder that contains the terraform files).
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps20.png" alt="AzDevops20">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps21.png" alt="AzDevops21"></p>
+<p>Configure the Azure Resource Manager section in order to set the Terraform Backend that will be located in azure, we should use the Pipeline variables configured previously.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps22.png" alt="AzDevops22"></p>
+<p>This task runs terraform init command. The terraform init command looks through all of the *.tf files in the current working directory and automatically downloads any of the providers required for them. In this example, it will download Azure provider as we are going to deploy Azure resources. For more information about terraform init command click <a href="https://www.terraform.io/docs/commands/init.html">here</a>.</p>
+<h3 id="add-task---terraform-plan">Add Task - Terraform Plan</h3>
+<p>Add Terraform CLI task like the init task, but for this one you should select the command Plan. You should set the Configuration Directory like the previous task. Also set the &ldquo;Environment Azure Subscription&rdquo; that should point to your Azure service connection configured before, you should authorize the connection if necessary.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps23.png" alt="AzDevops23"></p>
+<p>The terraform plan command is used to create an executi]on plan. Terraform determines what actions are necessary to achieve the desired state specified in the configuration files. This is a dry run and shows which actions will be made. For more information about terraform plan command click <a href="https://www.terraform.io/docs/commands/plan.html">here</a>.</p>
+<h3 id="add-task---terraform-apply">Add Task - Terraform Apply</h3>
+<p>Add Terraform CLI task like previous tasks, but for this one you should select the command Apply. You should set the Configuration Directory like the previous task. Also set the &ldquo;Environment Azure Subscription&rdquo; that should point to your Azure service connection configured before.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps24.png" alt="AzDevops24"></p>
+<p>This task will run the terraform apply command to deploy the resources to Azure Cloud.</p>
+<h3 id="save-your-pipeline">Save your Pipeline</h3>
+<p>Once the pipeline configuration is completed set a Name on it and save changes.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps25.png" alt="AzDevops25"></p>
+<h3 id="launch-your-pipeline">Launch your Pipeline</h3>
+<p>The Pipeline is now available to be selected and Create a Release, this action will start the execution of the pipeline and its tasks.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps26.png" alt="AzDevops26">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps27.png" alt="AzDevops27">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps28.png" alt="AzDevops28"></p>
+<p>When the execution of the pipeline is finished you will be able the see the new infraestructure created in Azure.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps29.png" alt="AzDevops29">
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps30.png" alt="AzDevops30"></p>
+<p>Within the RG for the App Service you will see the new infrastructure.
+<img src="https://raw.githubusercontent.com/josema88/IaCWithAzure/master/Images/AzDevOps31.png" alt="AzDevops31"></p>
+<p>Now a .net web app can be deployed to the new App Service.</p>
+
+      </div>
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "joseordonez" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>DevOps and Cloud rules!</p>
+    
+    
+    
+    
+      
+      [<a href="https://github.com/luizdepra/hugo-coder/tree/"></a>]
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
