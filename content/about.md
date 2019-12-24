@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-I'm Jose and I'm from Guatemala 🇬🇹, I'm techie 💻 and I love soccer ⚽️, travel 🗺🛩 and enjoy time with my family and friends ☕️🍺🌮🍕. 
+Hey I'm Jose and I'm from Guatemala 🇬🇹, I'm techie 💻 and I love soccer ⚽️, travel 🗺🛩 and enjoy time with my family and friends ☕️🍺🌮🍕. 
 
 I'm currently working as a Software Engineer. My skills are mainly on backend (Java,C#) I <3 DevOps. I co-founded [LaserAnts](https://www.laserants.com/).
 
