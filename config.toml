@@ -1,5 +1,5 @@
 baseurl = "https://josema88.github.io/"
-title = "Jose Ordonez"
+title = "Jose Ordoñez"
 
 theme = "hugo-coder"
 
@@ -16,11 +16,11 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "joseordonez"
 
 [params]
-    author = "Jose M. Ordonez"
-    description = "Jose Ordonez's personal website"
+    author = "Jose M. Ordoñez"
+    description = "Jose Ordoñez's personal website"
     keywords = "blog,developer,personal,devops,cloud,software"
-    info = "Software Engineer | Agile, Cloud and DevOps Enthusiast"
-    avatarurl = "https://firebasestorage.googleapis.com/v0/b/angular-website-6381b.appspot.com/o/Jose.jpg?alt=media&token=b8cfbbd7-b071-4817-ae0e-bad12af46fc4"
+    info = "Software Engineer - Agile, Cloud and DevOps Enthusiast"
+    avatarurl = "https://firebasestorage.googleapis.com/v0/b/angular-website-6381b.appspot.com/o/Me.jpg?alt=media&token=e5768be1-46e9-4109-abbd-681981226894"
     footercontent = "DevOps and Cloud rules!"
 
     dateformat = "January 2, 2006"

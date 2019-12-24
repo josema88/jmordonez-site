@@ -5,7 +5,7 @@ slug = "about"
 
 Hey I'm Jose and I'm from Guatemala 🇬🇹, I'm techie 💻 and I love soccer ⚽️, travel 🗺🛩 and enjoy time with my family and friends ☕️🍺🌮🍕. 
 
-I'm currently working as a Software Engineer. My skills are mainly on backend (Java,C#) I <3 DevOps. I co-founded [LaserAnts](https://www.laserants.com/).
+I'm currently working as a Software Engineer. My skills are mainly on backend (Java, C#) I <3 DevOps. I co-founded [LaserAnts](https://www.laserants.com/) at the beginning of 2019.
 
 Also I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy to participate in different tech communities attending to meetups and also participate as speaker. The last 2 years I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
 
