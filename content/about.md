@@ -10,7 +10,7 @@ I'm currently working as a Software Engineer at [Autoweb](https://www.autoweb.co
 Also I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy to participate in different tech communities attending to meetups and also participate as speaker. The last 2 years I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
 
 
-## Profesional Information
+## Professional Information
 
 I'm Systems and Computer Science Engineer with post graduate education, CSM® and technology passionated. I have 8 years experience in software development, experience creating solutions for health insurance, banking, finance and digital marketing companies member of Fortune 500 and Nasdaq.
 
