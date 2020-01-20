@@ -6,11 +6,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/hugo-build-action@master
+    - name: Checkout actions
+      uses: actions/checkout@master
+    - name: Build Hugo Site
+      uses: jakejarvis/hugo-build-action@master
       with:
         args: --minify --buildDrafts
     - uses: actions/upload-artifact@master
       with:
         name: website
         path: './public'
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        SSH: yes
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: public # The folder the action should deploy.
