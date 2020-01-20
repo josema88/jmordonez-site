@@ -4,14 +4,13 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Step1 
-      run: echo Publish site!
-    - name: Execute Deploy
-      run: |
-        chmod +x ./deploy.sh
-        ./deploy.sh
+    - uses: actions/checkout@master
+    - uses: jakejarvis/hugo-build-action@master
+      with:
+        args: --minify --buildDrafts
+    - uses: actions/upload-artifact@master
+      with:
+        name: website
+        path: './public'
