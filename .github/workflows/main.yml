@@ -12,13 +12,13 @@ jobs:
       uses: jakejarvis/hugo-build-action@master
       with:
         args: --minify --buildDrafts
-    - uses: actions/upload-artifact@master
+    - name: Login to Azure
+      uses: Azure/login@v1
       with:
-        name: website
-        path: './public'
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+    - name: Publish app
+      uses: Azure/cli@v1.0.0
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: public # The folder the action should deploy.
+        azcliversion: latest
+        inlineScript: |
+          az storage blob upload-batch -s $GITHUB_WORKSPACE/public -d \$web --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }}
