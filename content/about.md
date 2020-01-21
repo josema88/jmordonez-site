@@ -27,4 +27,4 @@ I've been speaker at the events:
 
 If you want to know my professional details, you can download my CV right [here](https://drive.google.com/open?id=1V3Jn5K4vlhfw6J3Tg0WJ339Vd-luxyzA).
 
-Thanks for reading!!!!!!!!!!!!!!!!!!!
+Thanks for reading!
