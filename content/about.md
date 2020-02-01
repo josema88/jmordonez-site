@@ -25,6 +25,6 @@ I've been speaker at the events:
 * Convención de ciencia y tecnología 2018 UMG, Retalhuleu.
 * Cyber security day 2018, Huehuetenango.
 
-If you want to know my professional details, you can download my CV right [here](/static/uploads/Jose Ordonez Resume 2020.pdf).
+If you want to know my professional details, you can download my CV right [here](//uploads/Jose%20Ordonez%20Resume%202020.pdf).
 
 Thanks for reading!
