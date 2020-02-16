@@ -1,21 +1,12 @@
-+++ 
-date = "2019-12-23"
-title = "Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps"
-slug = "iaac-with-azure-devops-and-terraform" 
-tags = [
-    "software",
-    "devops",
-    "cloud",
-    "infrastructure"
-]
-categories = [
-    "Development",
-    "DevOps",
-    "Cloud"
-]
-series = ["DevOps", "Azure", "Azure DevOps"]
 +++
+categories = ["Development", "DevOps", "Cloud"]
+date = 2020-02-14T06:00:00Z
+series = ["DevOps", "Azure", "Azure DevOps"]
+slug = "iaac-with-azure-devops-and-terraform"
+tags = ["software", "devops", "cloud", "infrastructure"]
+title = "Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps"
 
++++
 # Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps
 
 This is a sample that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.
@@ -144,5 +135,3 @@ Within the RG for the App Service you will see the new infrastructure.
 
 
 Now a .net web app can be deployed to the new App Service.
-
-
