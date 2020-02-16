@@ -7,9 +7,9 @@ tags = ["software", "devops", "cloud", "infrastructure"]
 title = "Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps"
 
 +++
-# Azure Infrastructure Deployment with Terraform (IaaC) and automated with Azure DevOps
+# Azure Infrastructure Deployment with Terraform (IaC) and automated with Azure DevOps
 
-At this tutorial we’ll build an automated pipeline that allows to create infrastructure in Azure cloud using IaaC concept with tools such as Terraform and Azure DevOps.
+At this tutorial we’ll build an automated pipeline that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.
 
 We will be able to create a PaaS Azure Resource called [App Service](https://azure.microsoft.com/en-us/services/app-service/). This Azure resource allows to deploy a web app, for this sample a .net web app.
 
@@ -30,7 +30,7 @@ Each resource has its required configurations such as the name and other paramet
 
 # Create Azure DevOps Project
 
-In order to create an Azure Pipeline you must create your Azure DevOps project that will contain the automated pipelines that deploy the infraestructure to the cloud. If you already have an account you can skipt this section.
+If you already have an account you can skip this section. In order to create an Azure Pipeline you must create your Azure DevOps project that will contain the automated pipelines that deploy the infraestructure to the cloud.
 
 #### Create New Organization
 
