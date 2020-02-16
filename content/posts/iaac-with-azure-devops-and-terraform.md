@@ -28,6 +28,8 @@ Each resource has its required configurations such as the name and other paramet
 * Create an Azure account.
 * Create an Azure DevOps account.
 
+To be honest with you for this tutorial you don’t even need Azure cli or Terraform installed on your machine since Azure DevOps will do the magic.
+
 # Create Azure DevOps Project
 
 If you already have an account you can skip this section. In order to create an Azure Pipeline you must create your Azure DevOps project that will contain the automated pipelines that deploy the infraestructure to the cloud.
