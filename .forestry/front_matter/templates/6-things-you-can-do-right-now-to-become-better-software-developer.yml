@@ -20,3 +20,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- content/posts/6-things-you-can-do-right-now-to-become-better-software-developer.md
