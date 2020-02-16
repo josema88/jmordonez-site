@@ -8,7 +8,7 @@ tags = ["Software Development", "Software"]
 title = "6 Things you can do right now to become better software developer"
 
 +++
-# 6 Things you can do right now to become better software developer
+# 6 Things you can do to become a better software developer
 
 Months ago I was wondering about the journey that I had along my carreer as a software developer and I could say that I’m “lucky” or “blessed” but I don’t trust in luck, I think you build your destiny based on all the decisions that you make. So in these past years since I began my journey as a developer I took some decisions and I always been trying to do some things that helped me a lot to improve my skills in this field. I would like to share with you 6 things that I applied and helped me to improve myself.
 
@@ -36,6 +36,6 @@ In every job that I had I always tried to listen to the experienced co-workers a
 
 Now on the other side I also try to be someone that helps the less experienced to improve. This is not rocket science, this is about to guide or help others when they need it. In a situation when you’re teaching or mentoring I think that your technical skills could increase. On my particular case I experienced the “learning by teaching” and it’s double satisfying.
 
-Well, those are the “tips” that I can share with you so far. If you have more tips or comments you can share with us. 
+Well, those are the “tips” that I can share with you so far, maybe some of them are obvious but the key is to just do it.  If you have more tips or comments you can share with us. 
 
 Thanks for reading.
