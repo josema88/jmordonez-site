@@ -34,4 +34,4 @@ In every job that I had I always tried to listen to the experienced co-workers a
 
 ## 6. Teach or mentor to others
 
-Now on the other side I also try to be someone that helps the less experienced to improve. This is not rocket science, this is about to guide or help others when they need it. In a situation when you’re teaching or mentoring I think that your technical skills could increase. On my particular case I experienced the “learning by teaching” and it’s double satisfying.  
+Now on the other side I also try to be someone that helps the less experienced to improve. This is not rocket science, this is about to guide or help others when they need it. In a situation when you’re teaching or mentoring I think that your technical skills could increase. On my particular case I experienced the “learning by teaching” and it’s double satisfying.
