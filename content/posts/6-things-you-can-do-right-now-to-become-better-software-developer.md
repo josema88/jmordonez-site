@@ -10,7 +10,7 @@ title = "6 Things you can do right now to become better software developer"
 +++
 # 6 Things you can do right now to become better software developer
 
-Months ago I was wondering about the journey that I had along my carreer as a software developer and I could say that I’m “lucky” or “blessed” but I don’t trust in luck, I think you build your destiny based on all the decisions that you make. So in these years since I began my journey as a developer I took some decisions and I always been trying to do some things that helped me a lot to improve my skills in this field. I would like to share with you 6 things that I applied and helped me to improve myself. 
+Months ago I was wondering about the journey that I had along my carreer as a software developer and I could say that I’m “lucky” or “blessed” but I don’t trust in luck, I think you build your destiny based on all the decisions that you make. So in these years since I began my journey as a developer I took some decisions and I always been trying to do some things that helped me a lot to improve my skills in this field. I would like to share with you 6 things that I applied and helped me to improve myself.
 
 ## 1. Read Books/magazines/blogs
 
@@ -21,13 +21,12 @@ I'm not a great reader, I have difficulties to focus while I'm reading but I thi
 During my career and different jobs I've been working on projects that are already built so I've faced code written by other developers, that was great no matter if that code was bad or well built. Reading other's code you gain new knowdlege, may be you can learn new design patters, code standards and sometimes you learn how not to code.
 I also recommend to read the code from Open Source projects, if you use some libraries or tools that you like maybe you can spend some time reading the code and its documentation.
 
-
 ## 3. Develop a personal project
 
-You may have all the theory inside your head but the only way you can prove your value is demonstrating what you've learned. As a Developer build things will help you to improve your skills, in software development the "practice makes perfect". You can develop an App or Tool to learn a new language, framework or design pattern, from my perspective there is no better way to learn than put it in practice. 
+You may have all the theory inside your head but the only way you can prove your value is demonstrating what you've learned. As a Developer build things will help you to improve your skills, in software development the "practice makes perfect". You can develop an App or Tool to learn a new language, framework or design pattern, from my perspective there is no better way to learn than put it in practice.
 
-## 4. Know Design Patterns (before know a lot programming languages).
+## 4. Know Principles, SW architecture and Design Patterns (before know a lot programming languages).
 
-
+I think is great to learn different programming languages. When you see that developer that knows 5 different programming languages you just think is awesome that someone takes its time to learn different programming languages. You think that Dev is a super hero, the dissapointment comes when you read the code that developer wrote. So I think that if you don’t know good coding standards, coding principles and design patterns you will make the same mistakes in every programming language. I could say that those aspects are angnostic to programming languages and a good developer should focus on polish those aspects before get obsessed to learn a lot programming languages.
 
 ## 6. Teach or mentor to others.
