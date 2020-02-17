@@ -2,7 +2,7 @@
 categories = ["Software Development"]
 date = 2020-02-24T06:00:00Z
 draft = true
-series = []
+series = ["Career"]
 slug = ""
 tags = ["Software Development", "Software"]
 title = "6 Things you can do to become better software developer"
