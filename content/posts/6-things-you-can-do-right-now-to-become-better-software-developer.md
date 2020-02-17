@@ -16,7 +16,7 @@ I'm not a great reader, I have difficulties to focus while I'm reading but I thi
 
 ## 2. Read other's code (especially Open Source projects)
 
-During my career and different jobs, I've been working on projects that are already built so I've faced code written by other developers, that was great no matter if that code was bad or well built. Reading other's code allows you to gain new knowledge, maybe you can learn new design patterns, code standards and sometimes you learn how not to code. I also recommend reading the code from Open Source projects, if you use some libraries or tools that you like maybe you can spend some time reading the code and its documentation.
+During my career and different jobs, I've been working on projects that are already built so I've faced code written by other developers, that was great no matter if that code was bad or well built. Reading other's code allows you to gain new knowledge. Maybe you can learn new design patterns, code standards and sometimes you learn how not to code. I also recommend reading the code from Open Source projects, if you use some libraries or tools that you like maybe you can spend some time reading the code and its documentation.
 
 ## 3. Develop a personal project
 
