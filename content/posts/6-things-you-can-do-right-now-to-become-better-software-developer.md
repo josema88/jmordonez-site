@@ -1,14 +1,13 @@
 +++
 categories = ["Software Development"]
 date = 2020-02-24T06:00:00Z
-draft = true
 series = ["Career"]
 slug = ""
 tags = ["Software Development", "Software"]
 title = "6 Things you can do to become better software developer"
 
 +++
-Months ago I was wondering about the journey that I had along with my career as a software developer and I could say that I’m “lucky” or “blessed” but I don’t trust in luck, I think you build your destiny based on all the decisions that you make. So in these past years since I began my journey as a developer, I took some decisions and I always been trying to do some things that helped me a lot to improve my skills in this field. I would like to share with you 6 things that I applied and helped me to improve myself.
+Months ago I was wondering about the journey that I had along with my career as a software developer and I could say that I’m “lucky” or “blessed” but I don’t trust in luck, I think you can build your destiny based on all the decisions that you make. So in these past years since I began my journey as a developer, I took some decisions and I always been trying to do some things that helped me a lot to improve my skills in this field. I would like to share with you 6 things that I applied and helped me to improve myself.
 
 ## 1. Read Books/magazines/blogs
 
