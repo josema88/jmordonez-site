@@ -2,7 +2,7 @@
 categories = ["DevOps", "Cloud", "Events"]
 date = 2020-06-06T00:00:00Z
 events = []
-image = ""
+image = "/uploads/images/techcommunity2020.jpeg"
 series = []
 slug = "tech-community-day-2020"
 tags = ["tech events", "software", "devops", "cloud"]
