@@ -26,4 +26,5 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/events/tech-community-day-2020.md
 - content/posts/why-should-you-consider-rest-apis-for-your-application-architecture.md
