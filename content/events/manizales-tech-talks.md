@@ -13,5 +13,3 @@ Next July 11th I'll be giving a session (in Spanish) with my Colombian friends f
 If you want more info about it go to:
 
 [https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/](https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/ "https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/")
-
-![Manizales Tech Talks](/images/techcommunity2020.jpeg)
