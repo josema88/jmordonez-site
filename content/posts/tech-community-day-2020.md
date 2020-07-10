@@ -7,7 +7,6 @@ tags = ["tech events", "software", "devops", "cloud"]
 title = "Tech Community Day 2020"
 
 +++
-# Tech Community Day 2020
 
 Next June 12th and 13th the "Tech Community Day 2020" will happen, there will be speakers from around the world with different talks and workshops in Spanish and English.
 

@@ -7,7 +7,6 @@ tags = ["software", "devops", "cloud", "infrastructure"]
 title = "Azure Infrastructure Deployment with Terraform (IaC) and automated with Azure DevOps"
 
 +++
-# Azure Infrastructure Deployment with Terraform (IaC) and automated with Azure DevOps
 
 At this tutorial we’ll build an automated pipeline that allows to create infrastructure in Azure cloud using IaC concept with tools such as Terraform and Azure DevOps.
 
