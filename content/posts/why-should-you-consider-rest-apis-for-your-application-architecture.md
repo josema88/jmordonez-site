@@ -15,7 +15,7 @@ Web services can be classified by their type of architecture, among which SOA (S
 
 Some experts say SOAP is not made for mobile devices with limited resources. SOAP messages have a heavy load, on the contrary, the messages of the REST framework are light load, which makes it the most suitable for use on mobile devices and networks.
 
-In the last decade, a Software REST architecture style has become popular. RESTful Web Services are presented as a promising alternative to SOAP-based services due to their simplicity and light nature, as well as the ability to transmit data directly over HTTP.
+In the last decade, a Software REST architecture style has become popular. RESTful Web Services are presented as a great alternative to SOAP-based services due to their simplicity and light nature, as well as the ability to transmit data directly over HTTP.
 
 To provide scalability and interoperability to a platform, it is key to implement a technological tool that has the ability to be reused within another technological platform that is required. A software architecture oriented to the resources' recovery such as REST allows an application to be invoked as a service providing the ability to access its functions from another platform.
 
