@@ -11,7 +11,7 @@ title = "Why should you consider REST APIs for your application architecture?"
 +++
 Over time, standards have been developed for the design and development of web services in order to allow the integration of different systems and guarantee interoperability.
 
-Web services can be classified by their type of architecture, among which SOA and ROA stand out. The SOA-based framework is SOAP which lays its foundation on web services, while the ROA-based framework is REST which also lays its foundation on web services (Wagh and Thool, 2012).
+Web services can be classified by their type of architecture, among which SOA (Software Oriented Architecture) and ROA (Resource Oriented Architecture) stand out. The SOA-based framework is SOAP which lays its foundation on web services, while the ROA-based framework is REST which also lays its foundation on web services (Wagh and Thool, 2012).
 
 Some experts say SOAP is not made for mobile devices with limited resources. SOAP messages have a heavy load, on the contrary, the messages of the REST framework are light load, which makes it the most suitable for use on mobile devices and networks.
 
