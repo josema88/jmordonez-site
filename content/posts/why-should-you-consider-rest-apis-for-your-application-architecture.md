@@ -1,11 +1,11 @@
 +++
-categories = []
-date = ""
+categories = ["Backend", "Development"]
+date = 2020-07-10T06:00:00Z
 draft = true
 image = ""
 series = []
-slug = ""
-tags = []
+slug = "rest-for-app-architecture"
+tags = ["web service", "backend", "soap", "restful api", "rest api", "restful", "rest"]
 title = "Why should you consider REST APIs for your application architecture?"
 
 +++
