@@ -1,7 +1,6 @@
 +++
 categories = ["Backend", "Development"]
 date = 2020-07-10T06:00:00Z
-draft = true
 image = ""
 series = ["RESTful API"]
 slug = "rest-for-app-architecture"
