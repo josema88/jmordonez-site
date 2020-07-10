@@ -2,6 +2,7 @@
 categories = []
 date = ""
 draft = true
+image = ""
 series = []
 slug = ""
 tags = []
@@ -21,3 +22,7 @@ To provide scalability and interoperability to a platform, it is key to implemen
 Regardless of the programming language or framework in which it is developed, a REST API allows us to communicate different systems and platforms thanks to the use of HTTP. Currently, these architectures can be implemented both in “On-Premise” infrastructure and in a public cloud such as Azure, AWS, or GCP and even in a hybrid model that combines the 2 approaches.
 
 REST is positioned as an ideal alternative if you want to implement a cross-platform application since it has the potential to create scalable applications as well as the characteristic of low use of resources, essential characteristics for the performance of a web and/or mobile application.
+
+**References**
+
+Wagh, K., & Thool, R. (2012). A comparative study of soap vs rest web services provisioning techniques for mobile host. Journal of Information Engineering and Applications, 2(5), 12-16
