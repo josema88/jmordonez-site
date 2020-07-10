@@ -1,13 +1,14 @@
 +++
 categories = ["DevOps", "Cloud", "Events"]
 date = 2020-07-11T00:00:00Z
+draft = true
 events = ["conference"]
 slug = "manizales-tech-talks-july-2020"
 tags = ["tech events", "software", "devops", "cloud"]
 title = "Manizales Tech Talks"
 
 +++
-Next July 11th I'll be giving a session (in Spanish) about Quality Software Delivery with Azure DevOps.
+Next July 11th I'll be giving a session (in Spanish) with my Colombian friends from "Manizales Tech Talks" about Quality Software Delivery with Azure DevOps.
 
 If you want more info about it go to:
 
