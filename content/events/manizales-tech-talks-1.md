@@ -1,7 +1,6 @@
 +++
 categories = ["Events", "Tech Events", "DevOps"]
 date = 2020-07-10T06:00:00Z
-draft = true
 image = "/uploads/manizales-tech-talks.jpg"
 series = []
 slug = "manizales-tech"
