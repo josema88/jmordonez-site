@@ -1,21 +1,16 @@
 +++
 categories = ["DevOps", "Cloud", "Events"]
-date = 2020-06-06T00:00:00Z
-draft = true
+date = 2020-07-11T00:00:00Z
 events = ["conference"]
-slug = "tech-community-day-2020"
+slug = "manizales-tech-talks-july-2020"
 tags = ["tech events", "software", "devops", "cloud"]
 title = "Manizales Tech Talks"
 
 +++
-Next June 12th and 13th the "Tech Community Day 2020" will happen, there will be speakers from around the world with different talks and workshops in Spanish and English.
-
-On June 13th I'll be giving a session (in Spanish) called **"Ensuring quality in CI and CD processes with Azure DevOps and Docker"**.
-
-Let's join this big event organized by Guatemalan tech communities.
+Next July 11th I'll be giving a session (in Spanish) about Quality Software Delivery with Azure DevOps.
 
 If you want more info about it go to:
 
-[https://techcommunityday.com/](https://techcommunityday.com/)
+[https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/](https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/ "https://www.meetup.com/es-ES/manizalestechtalks/events/271679323/")
 
-![Tech Community Day 2020](/images/techcommunity2020.jpeg)
+![Manizales Tech Talks](/images/techcommunity2020.jpeg)
