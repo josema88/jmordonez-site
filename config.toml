@@ -53,7 +53,6 @@ disqusShortname = "joseordonez"
   category = "categories"
   series = "series"
   tag = "tags"
-  events = "events"
 
 [[params.social]]
     name = "Github"
@@ -97,10 +96,15 @@ disqusShortname = "joseordonez"
             name = "Videos"
             weight = 3
             url = "videos/"
+            
+            [[languages.en.menu.main]]
+            name = "Events"
+            weight = 4
+            url = "events/"
 
             [[languages.en.menu.main]]
             name = "Projects"
-            weight = 4
+            weight = 5
             url = "projects/"
 
             [[languages.en.menu.main]]
