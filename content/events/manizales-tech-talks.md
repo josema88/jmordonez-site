@@ -2,7 +2,7 @@
 categories = ["DevOps", "Cloud", "Events"]
 date = 2020-07-11T00:00:00Z
 draft = true
-events = ["conference"]
+events = ["meetup"]
 slug = "manizales-tech-talks-july-2020"
 tags = ["tech events", "software", "devops", "cloud"]
 title = "Manizales Tech Talks"
