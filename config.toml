@@ -53,6 +53,7 @@ disqusShortname = "joseordonez"
   category = "categories"
   series = "series"
   tag = "tags"
+  events = "events"
 
 [[params.social]]
     name = "Github"

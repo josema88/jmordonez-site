@@ -1,7 +1,7 @@
 +++
 categories = ["DevOps", "Cloud", "Events"]
 date = 2020-06-06T00:00:00Z
-series = ["Events"]
+events = ["conference"]
 slug = "tech-community-day-2020"
 tags = ["tech events", "software", "devops", "cloud"]
 title = "Tech Community Day 2020"
