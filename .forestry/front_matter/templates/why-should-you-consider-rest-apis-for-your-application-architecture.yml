@@ -26,6 +26,7 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/events/manizales-tech-talks-1.md
 - content/events/manizales-tech-talks.md
 - content/events/tech-community-day-2020.md
 - content/posts/why-should-you-consider-rest-apis-for-your-application-architecture.md
