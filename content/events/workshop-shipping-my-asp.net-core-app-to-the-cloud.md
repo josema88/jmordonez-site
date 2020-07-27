@@ -4,7 +4,7 @@ date = 2020-07-27T16:00:00Z
 image = "/uploads/msdevgroupcoban2020.png"
 series = []
 slug = "ms-dev-group-coban"
-tags = ["tech events", "azure", "asp net core", "net core", "cloud"]
+tags = ["tech events", "azure", "asp net core", "cloud"]
 title = "Shipping my ASP.NET Core app to the cloud"
 
 +++
