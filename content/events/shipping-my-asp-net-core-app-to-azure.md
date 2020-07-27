@@ -1,6 +1,6 @@
 +++
 categories = ["Events"]
-date = 2020-07-27T06:00:00Z
+date = 2020-07-26T06:00:00Z
 image = ""
 series = []
 slug = "shipping-net-core-app-to-azure"
