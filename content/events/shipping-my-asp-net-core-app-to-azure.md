@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = ["Events"]
 date = 2020-07-27T06:00:00Z
 image = ""
 series = []
