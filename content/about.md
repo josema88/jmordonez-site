@@ -11,7 +11,7 @@ Also, I'm the community leader at [Azure Guatemala](https://www.facebook.com/azu
 
 ## Professional Information
 
-I'm a Systems and Computer Science Engineer with post-graduate education, CSM®, CSD®. I have 8 years' experience in software development, creating solutions for health insurance, banking/finance, and digital marketing companies member of Fortune 500 and Nasdaq. My experience covers from analysis to implementation of systems, automation, and testing, focusing on quality, compliance, and information security. Experience at software architecture design and implementation on-premise and in the cloud with Azure; experience in team leadership and under SCRUM and also integrate all the Agile and ALM framework with Azure DevOps and Atlassian Jira; experience implementing CI/CD with DevOps culture approach.
+I'm a Systems and Computer Science Engineer with a post-graduate education, CSM®, CSD®. I have 8 years' experience in software development, creating solutions for health insurance, banking/finance, and digital marketing companies member of Fortune 500 and Nasdaq. My experience covers from analysis to implementation of systems, automation, and testing, focusing on quality, compliance, and information security. Experience at software architecture design and implementation on-premise and in the cloud with Azure; experience in team leadership and Project Management under SCRUM, integrating all the Agile and ALM framework with Azure DevOps and Atlassian Jira; experience implementing CI/CD with DevOps culture approach.
 
 I've been a speaker at the events:
 
