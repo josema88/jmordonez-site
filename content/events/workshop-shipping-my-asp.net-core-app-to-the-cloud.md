@@ -1,7 +1,6 @@
 +++
 categories = ["Events", "Cloud"]
 date = 2020-07-27T16:00:00Z
-draft = true
 image = "/uploads/msdevgroupcoban2020.png"
 series = []
 slug = "ms-dev-group-coban"
