@@ -1,7 +1,7 @@
 +++
 categories = ["Events"]
 date = 2020-07-26T06:00:00Z
-image = ""
+image = "/uploads/msdevgroupcoban2020.png"
 series = []
 slug = "shipping-net-core-app-to-azure"
 tags = ["NET Core", "ASP NET Core", "Azure", "Cloud"]
