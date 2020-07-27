@@ -5,7 +5,7 @@ image = "/uploads/msdevgroupcoban2020.png"
 series = []
 slug = "ms-dev-group-coban"
 tags = ["tech events", "azure", "asp net core", "cloud"]
-title = "Shipping my ASP.NET Core app to the cloud"
+title = "Shipping my ASP NET Core app to the cloud"
 
 +++
 Next August 1st I'll be giving an online session (in Spanish) called **"Shipping my ASP.NET Core app to the cloud"**.
