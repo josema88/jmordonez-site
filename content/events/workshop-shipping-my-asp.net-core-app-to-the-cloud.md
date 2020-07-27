@@ -11,7 +11,7 @@ title = "Workshop - Shipping my ASP.NET Core app to the cloud"
 +++
 Next August 1st I'll be giving an online session (in Spanish) called **"Shipping my ASP.NET Core app to the cloud"**.
 
-Thanks to the **Microsoft Dev Group Coban** for the invitation.
+Thanks to the **Microsoft Dev Group Coban** community for the invitation.
 
 You can join the webinar here:
 
