@@ -9,3 +9,6 @@ tags = ["Containers", "Docker", "Net Core", "Azure"]
 title = "Workshop: Shipping my ASP NET Core App to the cloud"
 
 +++
+Workshop for Microsoft Dev Group Coban Meetup (SPA).
+
+{{< youtube AuTYPV2bgMQ >}}
