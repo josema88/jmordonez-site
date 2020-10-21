@@ -3,11 +3,11 @@ slug = "about"
 title = "About Me"
 
 +++
-Hey I'm Jose and I'm from Guatemala 🇬🇹, I'm a techie 💻 and I love soccer ⚽️, travel 🗺🛩 and enjoy time with my family and friends ☕️🍺🌮🍕.
+Hey I'm Jose and I'm from Guatemala 🇬🇹, I'm a techie 💻 and I love soccer ⚽️, travel 🗺🛩 , and enjoy time with my family and friends ☕️🍺🌮🍕.
 
 I'm currently working as a Software Engineer at [Autoweb](https://www.autoweb.com/). My skills are mainly at backend (Java, C#) and I'm a DevOps enthusiast. I co-founded [LaserAnts](https://www.laserants.com/) at the beginning of 2019.
 
-Also, I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy participating in different tech communities attending to meetups and also participate as a speaker. In the last 2 years, I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
+Also, I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy participating in different tech communities attending to meetups and also participate as a speaker. In the last years, I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
 
 ## Professional Information
 
@@ -15,13 +15,14 @@ I'm a Systems and Computer Science Engineer with a post-graduate education, CSM�
 
 I've been a speaker at the events:
 
+* Tech Community Day 2020
 * Microsoft Azure training Days Guatemala 2019
 * Microsoft Innovation summit Guatemala 2019
 * Global Azure Bootcamp Guatemala 2019
 * Dotnet conf Guatemala 2018
 * XI simposio de ingeniería 2018 URL, Quetzaltenango.
 * Convención de ciencia y tecnología 2018 UMG, Retalhuleu.
-* Cyber security day 2018, Huehuetenango.
+* Cybersecurity day 2018, Huehuetenango.
 
 If you want to know my professional details, you can get my CV right [here](https://www.jmordonez.com/uploads/Jose%20Ordonez%20Resume%202020.pdf).
 
