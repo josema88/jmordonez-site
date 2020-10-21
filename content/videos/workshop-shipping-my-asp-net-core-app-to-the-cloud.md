@@ -5,9 +5,9 @@ image = ""
 series = ["Azure"]
 slug = "shipping-netcore-app-to-azure"
 tags = ["Containers", "Docker", "Net Core", "Azure"]
-title = "Workshop: Shipping my ASP NET Core App to the cloud"
+title = "Workshop: Shipping my ASP NET Core App to the cloud (SPA)"
 
 +++
 Workshop for Microsoft Dev Group Coban Meetup (SPA).
 
-{{< youtube AuTYPV2bgMQ >}}
+{{< youtube sfJQk4w3lMI >}}
