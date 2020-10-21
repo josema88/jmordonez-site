@@ -1,14 +1,14 @@
 +++
 categories = ["Cloud"]
-date = 2020-08-03T06:00:00Z
+date = 2020-10-20T06:00:00Z
 draft = true
 image = ""
 series = ["Azure"]
-slug = "shipping-netcore-app-to-azure"
-tags = ["Containers", "Docker", "Net Core", "Azure"]
-title = "Workshop: Shipping my ASP NET Core App to the cloud (SPA)-(copy)"
+slug = "intro-to-cloud-in-azure"
+tags = ["Net Core", "Azure", "Cloud Computing", "PaaS", "App Service"]
+title = "Webinar: Introduction to Cloud Computing and PaaS in Azure (SPA)"
 
 +++
-Workshop for Microsoft Dev Group Coban Meetup (SPA).
+Webinar: Introduction to Cloud Computing and PaaS in Azure (SPA).
 
-{{< youtube sfJQk4w3lMI >}}
+{{< youtube ngk0NOEEZkk >}}
