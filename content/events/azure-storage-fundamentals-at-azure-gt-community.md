@@ -10,7 +10,7 @@ tags = ["tech events", "software", "cloud"]
 title = "Azure Storage Fundamentals at Azure GT Community"
 
 +++
-Next November 19th I'll be giving a session (in Spanish) called **"Azure Storage Fundamentals"**.
+Next November 19th I'll be giving a webinar (in Spanish) called **"Azure Storage Fundamentals"**.
 
 Let's join us at this event organized by Azure Guatemala Community.
 
