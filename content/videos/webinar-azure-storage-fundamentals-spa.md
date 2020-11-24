@@ -1,14 +1,14 @@
 +++
-categories = ["Cloud"]
-date = 2020-10-20T06:00:00Z
+categories = ["Cloud", "Storage"]
+date = 2020-11-24T06:00:00Z
 draft = true
 image = ""
-series = ["Azure"]
-slug = "intro-to-cloud-in-azure"
-tags = ["Net Core", "Azure", "Cloud Computing", "PaaS", "App Service"]
+series = ["Azure Fundamentals", "Azure"]
+slug = "azure-storage-fundamentals"
+tags = ["Azure", "Cloud Computing"]
 title = "Webinar: Azure Storage Fundamentals (SPA)"
 
 +++
-Webinar: Introduction to Cloud Computing and PaaS in Azure (SPA).
+Webinar: Azure Storage Fundamentals (SPA).
 
-{{< youtube ngk0NOEEZkk >}}
+{{< youtube 9CVFjMI4hxY >}}
