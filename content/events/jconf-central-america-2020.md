@@ -1,23 +1,23 @@
 +++
-categories = ["DevOps", "Cloud", "Events"]
-date = 2020-06-06T00:00:00Z
+categories = ["DevOps", "Cloud", "Events", "Testing"]
+date = 2020-12-02T00:00:00Z
 draft = true
 events = []
-image = "/uploads/images/techcommunity2020.jpeg"
+image = "/uploads/jconf2.jpg"
 series = []
-slug = "tech-community-day-2020"
+slug = "jconf-centralamerica-2020"
 tags = ["tech events", "software", "devops", "cloud"]
 title = "JConf Central America 2020"
 
 +++
-Next June 12th and 13th the "Tech Community Day 2020" will happen, there will be speakers from around the world with different talks and workshops in Spanish and English.
+Next December 5th I'll be giving a session (in Spanish) called **"Orchestrating immutable infrastructure for test automation with Java, Docker and Selenium Web Driver"**.
 
-On June 13th I'll be giving a session (in Spanish) called **"Ensuring quality in CI and CD processes with Azure DevOps and Docker"**.
+There will be speakers from around the world with interesting talks and workshops in Spanish and English.
 
-Let's join this big event organized by Guatemalan tech communities.
+Let's join this big event organized by Java User Groups from different countries in Central America.
 
-If you want more info about it go to:
+If you want more info about it and register go to:
 
-[https://techcommunityday.com/](https://techcommunityday.com/)
+[https://hopin.com/events/jconf-centroamerica-2020](https://hopin.com/events/jconf-centroamerica-2020 "https://hopin.com/events/jconf-centroamerica-2020")
 
-![Tech Community Day 2020](/images/techcommunity2020.jpeg)
+![](/uploads/jconf2.jpg)
