@@ -1,7 +1,6 @@
 +++
 categories = ["DevOps", "Cloud", "Events", "Testing"]
 date = 2020-12-02T00:00:00Z
-draft = true
 events = []
 image = "/uploads/jconf2.jpg"
 series = []
