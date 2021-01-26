@@ -1,21 +1,19 @@
 +++
-categories = ["Cloud", "Events", "Azure"]
-date = 2020-11-11T00:00:00Z
+categories = ["Events", "Software Quality", "Software Testing"]
+date = 2021-01-26T00:00:00Z
 draft = true
 events = []
-image = "/uploads/azure-meetup-11_20.png"
+image = "/uploads/calidad-de-software-evento.png"
 series = []
-slug = "azure-storage-fundamentals-2020"
-tags = ["tech events", "software", "cloud"]
+slug = "software-quality-live-session"
+tags = ["tech events", "software", "software testing", "software quality"]
 title = "Software Quality and Tester role"
 
 +++
-Next November 19th I'll be giving a webinar (in Spanish) called **"Azure Storage Fundamentals"**.
+Next Tuesday, January 26th I'll be in a session (in Spanish) talking about **"Software Quality and the Tester role"**.
 
-Let's join us at this event organized by Azure Guatemala Community.
+You can register at:
 
-If you want more info about it go to:
+[https://bit.ly/3pZiRLS](https://bit.ly/3pZiRLS "https://bit.ly/3pZiRLS")
 
-[https://www.meetup.com/es-ES/Azure-Guatemala/events/274512821/](https://www.meetup.com/es-ES/Azure-Guatemala/events/274512821/ "https://www.meetup.com/es-ES/Azure-Guatemala/events/274512821/")
-
-![](/uploads/azure-meetup-11_20.png)
+![](/uploads/calidad-de-software-evento.png)
