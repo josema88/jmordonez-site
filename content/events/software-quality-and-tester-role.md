@@ -1,7 +1,6 @@
 +++
 categories = ["Events", "Software Quality", "Software Testing"]
 date = 2021-01-26T00:00:00Z
-draft = true
 events = []
 image = "/uploads/calidad-de-software-evento.png"
 series = []
