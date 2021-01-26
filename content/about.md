@@ -24,6 +24,6 @@ I've been a speaker at the events:
 * Convención de ciencia y tecnología 2018 UMG, Retalhuleu.
 * Cybersecurity day 2018, Huehuetenango.
 
-If you want to know my professional details, you can get my CV right [here](https://www.jmordonez.com/uploads/Jose%20Ordonez%20Resume%202021.pdf).
+If you want to know my professional details, you can get my CV right [here](https://www.jmordonez.com/uploads/jose-ordonez-resume-2021.pdf).
 
 Thanks for reading!
