@@ -15,6 +15,7 @@ I'm a Systems and Computer Science Engineer with a post-graduate education, CSMÂ
 
 I've been a speaker at the events:
 
+* JConf Central America 2020
 * Tech Community Day 2020
 * Microsoft Azure training Days Guatemala 2019
 * Microsoft Innovation summit Guatemala 2019
