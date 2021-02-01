@@ -1,23 +1,20 @@
 +++
-categories = ["DevOps", "Cloud", "Events"]
-date = 2020-06-06T00:00:00Z
-draft = true
+categories = ["Cloud", "Events", "Software Development", "Serverless", "Azure"]
+date = 2021-02-01T00:00:00Z
 events = []
-image = "/uploads/images/techcommunity2020.jpeg"
+image = "/uploads/dfaffaaf-71ee-47ca-bae6-d544a8eef1cc.jpeg"
 series = []
-slug = "tech-community-day-2020"
-tags = ["tech events", "software", "devops", "cloud"]
+slug = "code-camp-2021"
+tags = ["tech events", "software", "cloud", "serverless", "azure"]
 title = "Code Camp 2021"
 
 +++
-Next June 12th and 13th the "Tech Community Day 2020" will happen, there will be speakers from around the world with different talks and workshops in Spanish and English.
+Next February 6th "Code camp 2021" will happen, there will be a lot of talks and workshops.
 
-On June 13th I'll be giving a session (in Spanish) called **"Ensuring quality in CI and CD processes with Azure DevOps and Docker"**.
+I'll be giving a session (in Spanish) called **"Develop, test and deploy Azure Functions with Azure Functions Core tools"**.
 
-Let's join this big event organized by Guatemalan tech communities.
+Register and details:
 
-If you want more info about it go to:
+[https://codecamp-2021.eventbrite.com/](https://codecamp-2021.eventbrite.com/ "https://codecamp-2021.eventbrite.com/")
 
-[https://techcommunityday.com/](https://techcommunityday.com/)
-
-![Tech Community Day 2020](/images/techcommunity2020.jpeg)
+![](/uploads/dfaffaaf-71ee-47ca-bae6-d544a8eef1cc.jpeg)
