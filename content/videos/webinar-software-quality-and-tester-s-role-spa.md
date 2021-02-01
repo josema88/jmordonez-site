@@ -1,7 +1,6 @@
 +++
 categories = ["Software Development", "Software Quality"]
 date = 2020-10-14T06:00:00Z
-draft = true
 image = ""
 series = ["Software Quality"]
 slug = "sw-quality-and-tester"
