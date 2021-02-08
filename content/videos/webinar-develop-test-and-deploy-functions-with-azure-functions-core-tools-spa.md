@@ -1,14 +1,13 @@
 +++
-categories = ["Cloud"]
-date = 2020-08-03T06:00:00Z
-draft = true
+categories = ["Cloud", "Serverless", "Software development"]
+date = 2021-02-07T06:00:00Z
 image = ""
 series = ["Azure"]
-slug = "shipping-netcore-app-to-azure"
-tags = ["Containers", "Docker", "Net Core", "Azure"]
+slug = "develop-with-azure-functions-core-tools"
+tags = ["Net Core", "Azure", "Azure Functions", "Serverless"]
 title = "Webinar: Develop, test and deploy Functions with Azure Functions Core Tools (SPA)"
 
 +++
-Workshop for Microsoft Dev Group Coban Meetup (SPA).
+Webinar at Code Camp 2021 (SPA).
 
-{{< youtube sfJQk4w3lMI >}}
+{{< youtube HoaFTMPEYsk >}}
