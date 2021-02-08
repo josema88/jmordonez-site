@@ -5,7 +5,7 @@ image = ""
 series = ["Azure"]
 slug = "develop-with-azure-functions-core-tools"
 tags = ["Net Core", "Azure", "Azure Functions", "Serverless"]
-title = "Webinar: Develop, test and deploy Functions with Azure Functions Core Tools (SPA)"
+title = "Webinar: Develop, test and deploy with Azure Functions Core Tools (SPA)"
 
 +++
 Webinar at Code Camp 2021 (SPA).
