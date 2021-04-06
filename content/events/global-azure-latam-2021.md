@@ -1,23 +1,23 @@
 +++
-categories = ["DevOps", "Cloud", "Events"]
-date = 2020-06-06T00:00:00Z
+categories = ["Cloud", "Events", "Software Development"]
+date = 2021-04-06T00:00:00Z
 draft = true
 events = []
-image = "/uploads/images/techcommunity2020.jpeg"
+image = "/uploads/0b20b939-77e0-4380-ad60-7ae7167a73af.jpeg"
 series = []
-slug = "tech-community-day-2020"
-tags = ["tech events", "software", "devops", "cloud"]
+slug = "global-azure-latam-2021"
+tags = ["tech events", "software", "cloud"]
 title = "Global Azure Latam 2021"
 
 +++
-Next June 12th and 13th the "Tech Community Day 2020" will happen, there will be speakers from around the world with different talks and workshops in Spanish and English.
+Global Azure Latin America 2021 is a 3 days event beginning in april 15th, there will be speakers from different latin america countries with different talks and workshops about Development, DevOps, Cloud, AI, Security and much more.
 
-On June 13th I'll be giving a session (in Spanish) called **"Ensuring quality in CI and CD processes with Azure DevOps and Docker"**.
+On saturday april 17th at 9:00 AM (GMT-6), I’ll be giving a session (in Spanish) called **"Develop your serverless architecture with Azure Functions Core Tools and VS Code"**.
 
-Let's join this big event organized by Guatemalan tech communities.
+Let's join this big event organized by different Latin american tech communities.
 
 If you want more info about it go to:
 
-[https://techcommunityday.com/](https://techcommunityday.com/)
+[https://latinonet.online/globalazurelatam2021/](https://latinonet.online/globalazurelatam2021/ "https://latinonet.online/globalazurelatam2021/")
 
-![Tech Community Day 2020](/images/techcommunity2020.jpeg)
+![](/uploads/0b20b939-77e0-4380-ad60-7ae7167a73af.jpeg)
