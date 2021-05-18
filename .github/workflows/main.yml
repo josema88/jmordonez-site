@@ -25,7 +25,7 @@ jobs:
         azcliversion: latest
         inlineScript: |
           az storage blob upload-batch -s $GITHUB_WORKSPACE/public -d \$web --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }}
-    - name: Purge CDN
+    - name: Purge CDN Endpoint
       uses: Azure/cli@v1.0.0
       with:
         azcliversion: latest
