@@ -30,5 +30,4 @@ jobs:
       with:
         azcliversion: latest
         inlineScript: |
-          az storage blob upload-batch -s $GITHUB_WORKSPACE/public -d \$web --account-name ${{ secrets.STORAGE_ACCOUNT_NAME }}
           az cdn endpoint purge -g ${{ secrets.AZ_RG_NAME }} -n ${{ secrets.AZ_CDN_ENDPOINT_NAME }} --profile-name ${{ secrets.AZ_CDN_PROFILE_NAME }} --content-paths '/*'
