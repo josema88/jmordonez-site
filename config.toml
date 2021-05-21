@@ -1,5 +1,6 @@
 baseurl = "https://www.jmordonez.com/"
 title = "Jose Ordoñez"
+googleAnalytics = "G-S3X6V72FEX"
 
 theme = "hugo-coder"
 
