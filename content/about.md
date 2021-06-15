@@ -5,16 +5,17 @@ title = "About Me"
 +++
 Hey I'm Jose and I'm from Guatemala 🇬🇹, I'm a techie 💻 and I love soccer ⚽️, travel 🗺🛩 , and enjoy time with my family and friends ☕️🍺🌮🍕.
 
-I'm currently working as a Software Engineer at [Autoweb](https://www.autoweb.com/). My skills are mainly at backend (Java, C#) and I'm a DevOps enthusiast. I co-founded [LaserAnts](https://www.laserants.com/) at the beginning of 2019.
+I'm currently working as a Software Engineer at [Autoweb](https://www.autoweb.com/). My skills are mainly at backend (Java, C#), Azure Cloud and I'm a DevOps enthusiast. I co-founded [LaserAnts](https://www.laserants.com/) at the beginning of 2019.
 
-Also, I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy participating in different tech communities attending to meetups and also participate as a speaker. In the last years, I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
+Also, I'm the community leader at [Azure Guatemala](https://www.facebook.com/azuregt). I enjoy participating in different tech communities attending meetups and also participate as a speaker. In the last years, I've tried to travel outside my country more frequently so I found that I like to travel to other countries, cities and know new places and cultures.
 
 ## Professional Information
 
-I'm a Systems and Computer Science Engineer with a post-graduate education, CSM®, CSD®. I have 8 years' experience in software development, creating solutions for health insurance, banking/finance, and digital marketing companies member of Fortune 500 and Nasdaq. My experience covers from analysis to implementation of systems, automation, and testing, focusing on quality, compliance, and information security. Experience at software architecture design and implementation on-premise and in the cloud with Azure; experience in team leadership and Project Management under SCRUM, integrating all the Agile and ALM framework with Azure DevOps and Atlassian Jira; experience implementing CI/CD with DevOps culture approach.
+I'm a Systems and Computer Science Engineer with a post-graduate education, CSM®, CSD®. I have 10 years of experience in software development, creating solutions for health insurance, banking/finance, and digital marketing companies member of Fortune 500 and Nasdaq. My experience covers from analysis to implementation of systems, automation, and testing, focusing on quality, compliance, and information security. Experience in software architecture design and implementation on-premise and in the cloud with Azure; experience in team leadership and Project Management under SCRUM, integrating all the Agile and ALM frameworks with Azure DevOps and Atlassian Jira; experience implementing CI/CD with DevOps culture approach.
 
 I've been a speaker at the events:
 
+* Global Azure Latam 2021
 * JConf Central America 2020
 * Tech Community Day 2020
 * Microsoft Azure training Days Guatemala 2019
